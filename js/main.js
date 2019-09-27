@@ -39,7 +39,7 @@
         if (typeof (ClipboardJS) !== 'undefined' && IcarusThemeSettings.article.highlight.clipboard) {
             $('figure.highlight').each(function () {
                 var id = 'code-' + Date.now() + (Math.random() * 1000 | 0);
-                var button = '<a href="javascript:;" class="copy" title="Copy" data-clipboard-target="#' + id + ' .code"><i class="fas fa-copy"></i></a>';
+                var button = '<a href="javascript:;" class="copy" title="Copy" data-clipboard-target="#' + id + ' .code" target="_blank" rel="noopener"><i class="fas fa-copy"></i></a>';
                 $(this).attr('id', id);
                 if ($(this).find('figcaption').length) {
                     $(this).find('figcaption').prepend(button);
@@ -94,3 +94,4 @@
         $('.navbar-main .catalogue').on('click', toggleToc);
     }
 })(jQuery);
+</div></div>
