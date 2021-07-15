@@ -13,7 +13,7 @@ name                     : &name "Xinyuan Zhu"
 description              : &description "personal description"
 url                      : https://xinyuanzhu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "xinyuanzhu/xinyuanzhu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Xinyuan Zhu"
-  avatar           : "zhuxinyuan.jpeg"
+  avatar           : "zhuxinyuan_c.jpeg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Hefei, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "xinyuanzhu"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
@@ -184,9 +184,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  #talks:
+  #  output: true
+  #  permalink: /:collection/:path/
 
 
 # Defaults
@@ -237,13 +237,13 @@ defaults:
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #    path: ""
+  #    type: talks
+  # values:
+  #    layout: talk
+  #    author_profile: true
+  #    share: true
 
 # Sass/SCSS
 sass:
