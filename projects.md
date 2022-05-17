@@ -1,6 +1,5 @@
-
 ---
 layout: page
-title: About me
+title: Projects
 ---
 TBD
