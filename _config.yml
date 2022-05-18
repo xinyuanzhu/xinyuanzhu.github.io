@@ -14,7 +14,7 @@ author: Xinyuan Zhu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "test_aboutme"
+  About Me: "aboutme"
   Projects: "projects"
   Misc: "misc"
   Resources:
