@@ -14,10 +14,10 @@ BODY {
 	BACKGROUND: #white; PADDING-BOTTOM: 50px; PADDING-TOP: 20px; PADDING-LEFT: 50px; MARGIN: 0px auto; PADDING-RIGHT: 50px; WIDTH: 927px
 }
 H1 {
-	FONT-SIZE: 30px; MARGIN: 0px; DISPLAY: inline
+	FONT-SIZE: 30px; MARGIN: 0px; DISPLAY: block
 }
 H2 {
-	FONT-SIZE: 20px; PADDING-TOP: 15px; display:inline-block;   
+	FONT-SIZE: 20px; PADDING-TOP: 15px; display:inline-block;
 }
 H3 {
 	DISPLAY: bold
@@ -45,20 +45,20 @@ TD {
 }
 
 a:link {
-color:#483D8B;
-text-decoration:none;
+	color:#483D8B;
+	text-decoration:none;
 }
 a:visited {
-color:#483D8B;
-text-decoration:none;
+	color:#483D8B;
+	text-decoration:none;
 }
 a:hover {
-color:#000000;
-text-decoration:none;
+	color:#000000;
+	text-decoration:none;
 }
 a:active {
-color:#FFFFFF;
-text-decoration:none;
+	color:#FFFFFF;
+	text-decoration:none;
 }
 
 IMG {
@@ -96,4 +96,34 @@ A.thumbnail:hover {
 }
 .inbox {
 	PADDING-BOTTOM: 7px; MARGIN-TOP: 5px
+}
+
+/* ===== 新增：姓名区域 ===== */
+.name-block {
+	DISPLAY: inline-block;
+	MARGIN: 0px;
+	PADDING: 0px;
+}
+
+.name-en {
+	FONT-SIZE: 26px;
+	COLOR: #000000;
+	FONT-WEIGHT: normal;
+	MARGIN: 0px;
+	LINE-HEIGHT: 1.5;
+	DISPLAY: block;
+	/* FONT-FAMILY: "Lombok"; */
+	/* font-family: "Nunito","Arial Rounded MT Bold", sans-serif; */
+	/* font-weight: 100; */
+	font-weight: bold;
+}
+
+.name-zh {
+	FONT-SIZE: 20px;
+	COLOR: #000000;
+	MARGIN-TOP: 6px;
+	LINE-HEIGHT: 1.2;
+	DISPLAY: block;
+	FONT-FAMILY: "Songti SC", "STSong", "SimSun", Georgia, serif;
+	font-weight: bold;
 }
